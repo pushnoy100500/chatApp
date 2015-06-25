@@ -1,0 +1,81 @@
+
+body {	
+		background-image: url('../img/colorful-triangles-background.jpg');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.wrapper {
+	/*height: 2000px;*/
+}
+.login-form {
+	margin-top: 20px;
+}
+.logins {
+	background: rgba(233, 178, 116, 0.6);
+	padding: 10px;
+	color: #3F2F24 !important;
+	border-radius: 5px;
+	margin-left: 5px;
+		border: 2px solid rgba(235, 111, 98, 0.6);
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:   rgba(111, 78, 69, 0.6);
+}
+.chat-window {
+	height: 450px;
+	padding: 10px;
+	width: 100%;
+	margin-top: 30px;
+	border-radius: 5px;
+	background: rgba(174, 72, 57, 0.6);
+	border: 5px solid rgba(235, 111, 98, 0.6);
+	color: #FAEFCF;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	overflow: scroll;
+}
+.send-button {
+	background: rgba(147, 115, 98, 0.6);	
+	float: right;
+	color: #3F2F24;
+	padding: 10px;
+	width: 100px;
+	border: 2px solid rgba(235, 111, 98, 0.6);
+
+}
+.messageForm {
+	margin-top: 5px;
+
+}
+.messageBox {
+	width: 100%;
+	text-align: left;
+	background: rgba(233, 178, 116, 0.6);
+	padding: 10px;
+	color: #3F2F24;
+	
+}
+.msgText {
+	border: 1px solid rgba(233, 178, 116, 0.4);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+.from {
+	color: #1F242F;
+}
+/* Fix for iOS to stop zooming */
+input[type='text'],
+input[type='password'],
+textarea {
+  font-size: 16px;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.nomargin {
+	margin: 0;
+}
